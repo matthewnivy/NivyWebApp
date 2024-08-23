@@ -1,0 +1,104 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontsizes.scss";
+
+@media only screen and (max-width: 350px) {
+	.orders {
+		.orderContainer {
+			.orderDetails {
+				width: 92% !important;
+				padding: 1.35rem 0.55rem !important;
+			}
+		}
+	}
+}
+
+.orders {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	margin-top: 1rem;
+
+	.orderContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+		margin-bottom: 0.5rem;
+
+		.date-time {
+			.date {
+				color: $date;
+			}
+
+			p {
+				font-size: 0.75rem;
+				line-height: 0.2rem;
+				text-align: center;
+				font-weight: 600;
+			}
+		}
+
+		.orderDetails {
+			border: 2px solid $primary_blue;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 85%;
+			padding: 1.35rem 1rem;
+			border-radius: 2.25rem;
+			box-shadow: 0rem 0.5rem 1.25rem rgb(0 0 0 / 10%);
+
+			.userDetails {
+				line-height: 0.2rem;
+				.userName {
+					font-size: 0.75rem;
+					font-weight: 600;
+				}
+				.orderId {
+					font-size: 0.65rem;
+					color: #afafaf;
+				}
+			}
+
+			.statusBadge {
+				font-size: 0.75rem;
+				padding: 0.3rem 1.25rem;
+				font-weight: 600;
+				border-radius: 1rem;
+			}
+
+			.open {
+				background: $darkGreen;
+				color: $sucess;
+			}
+
+			.completed{
+				color: $primary_blue;
+				background: $lightBlue;
+			}
+
+			.cancelled{
+				color: $cancelBtn;
+				background: $lightRed;
+			}
+
+			.pending{
+				color: $lightGold;
+				background: $lighterGold;
+				font-weight: bolder;
+			}
+
+			.orderDetailsBtn {
+				font-size: 0.75rem;
+				padding: 0.3rem 1.25rem;
+				border-radius: 0.85rem;
+				background-color: $primary_blue;
+				color: $white;
+				cursor: pointer;
+			}
+		}
+	}
+}

@@ -1,0 +1,58 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img_container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  margin-top: 15px;
+  background-color: $whiteOne;
+}
+.text_container {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.textStyle {
+  font-size: 8px;
+  font-family: itc;
+  letter-spacing: 0.4;
+  line-height: 2.5;
+  color: $gray1;
+  padding-left: 5px;
+}
+.price {
+  font-size: 11px;
+  font-family: itc;
+  color: $black;
+  font-weight: bold;
+  margin-top: -5px;
+}
+.heading {
+  font-size: 15px;
+  font-family: itc;
+  font-weight: Bold;
+}
+.description {
+  font-size: 11px;
+  font-family: itc;
+  font-weight: Bold;
+  margin-top: 23px;
+}
+.headingContainer {
+  height: 20px;
+  padding-left: 5px;
+}
+
+.paragraphContainer {
+  margin-top: 7px;
+  height: 75px;
+}

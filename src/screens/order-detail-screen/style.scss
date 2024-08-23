@@ -1,0 +1,17 @@
+@import "../../commons/fontfamily.scss";
+@import "../../commons/colors.scss";
+
+.cancelBtn {
+	background: $cancelBtn;
+	text-align: center;
+	color: $white;
+	font-weight: 600;
+	text-transform: uppercase;
+	width: 80%;
+	padding: 0.85rem 1rem;
+	margin: auto;
+	border-radius: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}

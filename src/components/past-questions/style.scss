@@ -1,0 +1,43 @@
+@import "../../commons/fontfamily.scss";
+@import "../../commons/colors.scss";
+.correctOpt,
+.userOpt {
+	color: $white !important;
+}
+
+.userOpt {
+	background: $wrong !important;
+}
+
+.correctOpt {
+	background: $correct !important;
+}
+
+.disbaled {
+	background: $border2 !important;
+	color: $greyText !important;
+	font-weight: bolder;
+	font-size: small;
+}
+
+.option{
+		display: flex;
+		justify-content: center;
+		color: #171e84;
+		font-weight: 700;
+		background: #fff;
+		padding: 0.25rem 0.5rem;
+		box-shadow: 0px 1px 7px rgb(0 0 0 / 15%);
+		border-radius: 1rem;
+		transition: background-color 0.3s ease;
+		cursor: pointer;
+		box-sizing: border-box;
+}
+
+#correctAnswer{
+	background: #EA4025;
+}
+
+#customerSelectedAnswer{
+	background: green;
+}

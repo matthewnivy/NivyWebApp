@@ -1,0 +1,27 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+.contest-dropdown {
+	width: initial;
+	border-color: $border2;
+	color: $greyText;
+	font-weight: 500;
+	margin: 0.5rem 0rem;
+	position: relative;
+
+	li {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 0 !important;
+	}
+
+	svg {
+		position: initial;
+	}
+	li ul {
+		width: initial;
+		border-color: $border2;
+		color: $greyText;
+	}
+}

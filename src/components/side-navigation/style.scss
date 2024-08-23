@@ -1,0 +1,121 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+.main_div {
+	height: 0%;
+	margin: 0px;
+	padding: 0px;
+}
+.nav_menu {
+	height: 100%;
+	width: 60%;
+	background-color: $white;
+	box-shadow: 2px 0px 19px 1px #afafafaf;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	left: -100%;
+	transition: 850ms;
+	margin-top: -16%;
+}
+.nav_menu.active {
+	left: 0;
+	// transition: 450ms;
+}
+.navbar {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	margin-top: 30px;
+}
+.bars {
+	margin-left: 5px;
+}
+.navbar li {
+	margin-bottom: 14px;
+	font-size: 18px;
+	font-family: itc;
+	margin-left: 10px;
+	height: 35px;
+	// width: 70%;
+	display: flex;
+	align-items: center;
+	color: $white;
+}
+
+.navbar span {
+	margin-right: 10px;
+}
+.linkstyle {
+	color: $white;
+	text-decoration: none;
+	font-size: 22px;
+	cursor: pointer;
+}
+.top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 16vmin;
+	background-color: $them_color;
+}
+
+.iconStyle {
+	font-size: 1.85rem;
+}
+
+.logoutIconStyle {
+	font-size: 1.0rem;
+	transform: rotate(180deg);
+	margin-top: 0.4rem;
+}
+
+.options {
+	// border: 1px solid white;
+	padding-left: 30px;
+}
+
+.user-container {
+	padding-top: 0.81rem;
+	padding-left: 0.25rem;
+	padding-bottom: 3rem;
+
+	p {
+		font-size: 1rem;
+		line-height: 0.35rem;
+	}
+	box-sizing: border-box;
+}
+
+.logoutButton{
+	margin-left: 0.1rem;
+}
+
+.account-badge {
+	border: 1px solid $white;
+	padding: 0.25rem 0.4rem;
+	font-size: 0.65rem;
+	border-radius: 0.7rem;
+	cursor: pointer;
+}
+
+.feedback {
+	display: flex;
+	align-items: center;
+	color: $white;
+	position: absolute;
+	bottom: 0;
+	margin: 0.65rem 0rem;
+	margin-left: 10px;
+	font-size: 0.85rem;
+	cursor: pointer;
+	span {
+		padding-left: 0.35rem;
+		margin: 0;
+	}
+}
+
+.homeStyle{
+	margin-top: 22px;
+}

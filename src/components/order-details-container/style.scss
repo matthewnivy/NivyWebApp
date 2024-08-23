@@ -1,0 +1,103 @@
+@import "../../commons/fontfamily.scss";
+@import "../../commons/colors.scss";
+
+@media only screen and (min-width: 1024px) {
+	.orderDetailsContainer {
+		.orderImageContainer {
+			width: 200px !important;
+		}
+	}
+}
+
+.orderDetailsContainer {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	padding: 0.3rem 1rem;
+
+	.orderImageContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 0.5rem;
+		width: 100px;
+
+		img {
+			width: 60%;
+		}
+	}
+
+	.orderDetails {
+		font-size: 0.65rem;
+		margin-left: 0.35rem;
+		border-bottom: 1px solid $border2;
+		padding: 0.5rem 0rem;
+
+		.name {
+			font-size: 1.15rem;
+			margin: 0rem;
+			line-height: 2rem;
+		}
+
+		.addons {
+			line-height: 1.5rem;
+			font-weight: bold;
+
+			.addons-badge {
+				display: inline-block;
+				margin: 0.25rem;
+				color: $badge;
+				border-radius: 0.7rem;
+				padding: 0rem 0.3rem;
+			}
+		}
+
+		.orderInfo {
+			display: flex;
+			flex-direction: row;
+			align-self: flex-end;
+
+			.quantityPrice {
+				display: flex;
+				align-self: flex-end;
+				margin-left: auto;
+				font-size: 0.75rem;
+
+				.orderQuantity {
+					color: $greyText;
+					padding: 0.35rem;
+					font-weight: bold;
+				}
+
+				.orderPrice {
+					background: $primary_blue;
+					padding: 0.25rem 0.65rem;
+					font-weight: bold;
+					color: $white;
+					border-radius: 0.85rem;
+				}
+			}
+
+			.orderInstructions {
+				p {
+					margin: 0rem;
+				}
+
+				.instructionTitle {
+					font-weight: bold;
+				}
+
+				.instructions {
+					color: $greyText;
+					font-size: 0.6rem;
+				}
+			}
+		}
+	}
+}
+
+.orderHeading{
+	text-align: center;
+	margin: 22px 0px;
+	font-size: larger;
+	font-weight: bolder;
+}

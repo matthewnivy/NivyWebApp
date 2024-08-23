@@ -1,0 +1,22 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+@import "../../commons/fontsizes.scss";
+
+.paymentBox {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  font-size: $normal;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 5px;
+  background-color: $white;
+  width: 100%;
+}
+.totalPrice {
+  color: $gray1;
+  margin-right: 15px;
+}
+.innerTexts {
+  margin-left: 15px;
+}

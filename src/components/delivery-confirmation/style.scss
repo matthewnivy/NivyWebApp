@@ -1,0 +1,50 @@
+@import "../../commons/fontsizes.scss";
+@import "../../commons/fontfamily.scss";
+@import "../../commons/colors.scss";
+
+.deliveryBox {
+  height: 135px;
+
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 100%;
+}
+.reciver {
+  font-family: itc;
+  color: $black;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.reciverName {
+  font-size: $xlarge;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: itc;
+}
+.confirmation {
+  font-size: $small;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+.reciverInfo {
+  padding-left: 10px;
+  margin-top: 2px;
+}
+.innerText {
+  font-size: $tiny;
+  margin-left: 5px;
+  color: $gray1;
+  font-family: itc;
+}
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.iconColor {
+  color: $them_color;
+}

@@ -1,0 +1,43 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+.positionContainer {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 0.5rem;
+	padding: 0.85rem 0rem;
+	margin: 0.5rem 0rem;
+
+	.user-name {
+		padding: 0rem 0.65rem;
+		font-weight: 600;
+	}
+
+	span.rank {
+		color: $greyText;
+	}
+
+	img.rank,
+	span.rank {
+		margin-left: 0.5rem;
+	}
+
+	.points-badge {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: $goldBackground;
+		border-radius: 1rem;
+		height: 30px;
+		color: $lightGold;
+		margin-left: auto;
+		margin-right: 0.5rem;
+		img {
+			width: 28%;
+			margin-top: 0.2rem;
+			margin-right: 0.2rem;
+		}
+	}
+}

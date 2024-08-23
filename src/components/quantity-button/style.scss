@@ -1,0 +1,40 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontsizes.scss";
+.btnDiv {
+  height: 20px;
+  width: 80px;
+  border: 1px solid $gray1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.decrease {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quantity {
+  border-left: 1px solid $gray1;
+  border-right: 1px solid $gray1;
+  width: 50%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $them_color;
+  font-size: $small;
+  font-weight: bold;
+}
+.increase {
+  width: 25%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  color: $them_color;
+  font-size: $xsmall;
+}

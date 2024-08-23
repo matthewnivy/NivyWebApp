@@ -1,0 +1,32 @@
+@import '../../commons/colors.scss';
+@import '../../commons/fontfamily.scss';
+
+.labelStyles {
+  font-size: 11px;
+  font-family: $itc;
+  color: $gray1;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+.types {
+  font-size: 11px;
+  font-family: itc;
+  font-weight: bold;
+  line-height: 0;
+  margin-left: -6px;
+  margin-top: 20px;
+}
+.checkDiv {
+  align-items: center;
+  margin-left: -23px;
+}
+.mainBox {
+  margin-bottom: 10px;
+}
+.radiobutton {
+  margin-left: 18px;
+}
+.strike {
+  text-decoration: line-through;
+  color: $gray1;
+}

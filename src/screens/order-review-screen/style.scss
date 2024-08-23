@@ -1,0 +1,77 @@
+@import "../../commons/fontsizes.scss";
+@import "../../commons/fontfamily.scss";
+@import "../../commons/colors.scss";
+
+.mainBody {
+  background-color: $grayTwo;
+}
+.complet {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $itc;
+  font-size: $normal;
+  font-weight: bold;
+  background-color: $white;
+}
+.complet p {
+  margin-left: 4px;
+}
+.downContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 95%;
+}
+.paymentsContainer {
+  width: 95%;
+  margin-bottom: 5px;
+}
+.orderList {
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.innerOrders {
+  width: 90%;
+  margin-top: 10px;
+}
+
+.orderContainer {
+  background-color: $white;
+  width: 95%;
+}
+.itemList {
+  color: $black;
+  font-family: itc;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: $normal;
+  margin-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+.HomeIcon {
+  padding-right: 5px;
+}
+
+.bottomButtonLast {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid $gray1;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  flex-direction: column;
+}

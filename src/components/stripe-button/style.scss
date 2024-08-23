@@ -1,0 +1,15 @@
+@import "../../commons/fontfamily.scss";
+@import "../../commons/colors.scss";
+
+.stripe-btn {
+	width: 90%;
+	height: 46px;
+	background-color: $them_color;
+	outline: none;
+	border: none;
+	color: $white;
+	text-transform: uppercase;
+	font-family: itc;
+	font-weight: bolder;
+	border-radius: 3px;
+}

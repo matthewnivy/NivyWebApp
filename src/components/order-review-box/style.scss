@@ -1,0 +1,77 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontsizes.scss";
+
+.BoxContainers {
+  height: 100px;
+  box-shadow: 0px 3px 15px $gray1;
+  display: flex;
+}
+.ImageContainer {
+  border-right: 1px solid $gray1;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 60px;
+  margin-top: 15px;
+}
+.InsideBox {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.nameOne {
+  font-size: $small;
+  font-family: itc;
+  letter-spacing: 0px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.cat {
+  display: flex;
+  flex-direction: row;
+}
+
+.optOne {
+  color: $black;
+  font-weight: bold;
+  font-size: 8px;
+}
+.selectName {
+  font-size: 8px;
+}
+.PriceBox {
+  position: relative;
+  width: 17%;
+}
+.pricing {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 12px;
+  font-family: itc;
+}
+.CatName {
+  font-size: $xtiny;
+  font-family: itc;
+}
+.opt1 {
+  font-size: $tiny;
+  font-family: itc;
+}
+
+.subone {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  width: 120%;
+}
+
+.d {
+  font-size: 8px;
+}
+
+.optionDpt {
+  display: flex;
+}

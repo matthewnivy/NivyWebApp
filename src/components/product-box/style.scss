@@ -1,0 +1,118 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+.main_div1 {
+  height: 25vw;
+  border: 2px solid $them_color;
+  width: 88%;
+  display: flex;
+  margin-bottom: 16px;
+  border-radius: 3px;
+}
+.imgBox {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgstyling {
+  height: 20vw;
+  width: 23vw;
+}
+.childContainer {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.productPrice {
+  font-family: itc;
+  text-transform: uppercase;
+  font-size: 4vw;
+  font-weight: bold;
+  display: inline-block;
+}
+.productTitleContainer {
+  display: block;
+  padding: 7px 0px;
+  margin-left: 9px;
+}
+.priceContainer {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  height: 5vw;
+}
+.buttonConatiner {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+.orderBtn1 {
+  width: 20vw;
+  height: 6vw;
+  border-radius: 4px;
+  background-color: $them_color;
+  font-size: 3vw;
+  line-height: 0px;
+  color: $white;
+  font-family: itc;
+  text-align: center;
+  border: none;
+}
+.StockBtn {
+  width: 28vw;
+  height: 7vw;
+  border-radius: 4px;
+  background-color: $mutedGrey;
+  font-size: 3vw;
+  line-height: 0px;
+  color: $white;
+  font-family: itc;
+  text-align: center;
+  border: none;
+}
+
+.productName {
+  font-size: 3vw;
+  font-family: itc;
+  width: 190px;
+  color: $black;
+  font-weight: bold;
+  display: inline;
+}
+
+@media only screen and (width: 540px) {
+  .productTitleContainer {
+    display: block;
+    padding: 5px 0px;
+    margin-left: 9px;
+    margin-bottom: 3vw;
+  }
+}
+@media only screen and (width: 1024px) {
+  .productTitleContainer {
+    display: block;
+    padding: 5px 0px;
+    margin-left: 9px;
+    margin-bottom: 5vw;
+  }
+}
+@media only screen and (width: 280px) {
+  .productTitleContainer {
+    display: block;
+    padding: 5px 0px;
+    margin-bottom: -5vw;
+  }
+}
+@media only screen and (width: 768px) {
+  .productTitleContainer {
+    display: block;
+    padding: 5px 0px;
+    margin-bottom: 5vw;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../commons/fontsizes.scss";
+@import "../../commons/colors.scss";
+
+.ulListOne {
+  list-style: none;
+  height: 10px;
+}
+
+.ulListOne li {
+  color: $them_color;
+  text-transform: uppercase;
+  font-family: itc;
+  font-weight: bolder;
+  font-size: $large;
+  width: fit-content;
+}
+.insideContainer {
+  margin-bottom: 10px;
+}

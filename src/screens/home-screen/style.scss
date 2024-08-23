@@ -1,0 +1,89 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+.welCome_heading {
+  color: $them_color;
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 25px;
+  font-family: itc;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.welCome_headingIcon {
+  color: $them_color;
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 25px;
+  font-family: itc;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.side {
+  pointer-events: all;
+  touch-action: all;
+  position: fixed;
+  z-index: 55;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // margin-top: 80%;
+  // height: 100%;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+
+.Imgstyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: auto;
+}
+
+.disable-interactions {
+  pointer-events: none;
+  touch-action: none;
+}
+
+.MainImage {
+  width: 100vw;
+  padding: 3px;
+}
+
+.iconsLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding: 5px;
+}
+
+.iconPadding {
+  padding: 10px;
+}
+
+#instaIcon {
+  width: 42px;
+  height: 42px;
+  border-radius: 40%;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: $white;
+}
+
+#fbIcon {
+  width: 44px;
+  height: 44px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#twitterIcon {
+  width: 51px;
+  height: 51px;
+  margin-left: 15px;
+  margin-right: 15px;
+}

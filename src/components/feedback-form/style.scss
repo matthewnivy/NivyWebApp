@@ -1,0 +1,64 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+.selectOptions {
+	border-radius: 0.85rem;
+	border: 1px solid;
+	border-color: $primary_blue;
+	padding: 0.5rem;
+	font-size: 12px;
+	width: 100%;
+	color: $greyText2;
+	margin: 0;
+
+	svg {
+		position: absolute;
+		right: 9px;
+		top: 15px;
+	}
+
+	li {
+		ul {
+			position: absolute;
+			z-index: 1;
+			visibility: hidden;
+			opacity: 0;
+			left: 0;
+			right: 0;
+			width: 92%;
+			top: 2.5rem;
+			background-color: $white;
+			transition: opacity 0.3s;
+			box-shadow: 0 0 2rem 1vmax $shadow;
+
+			li {
+				margin: 0rem 0.65rem 0rem 0.65rem;
+				padding: 0.5rem 0rem;
+				border-bottom: 1px solid $greyText2;
+			}
+
+			li:last-child {
+				border-bottom: 0;
+			}
+		}
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+input.feedbackInput,
+textarea {
+	padding: 0.5rem !important;
+}
+
+input.feedbackInput::placeholder,
+input.feedbackInput,
+textarea.feedbackInput,
+textarea.feedbackInput::placeholder {
+	color: $greyText2;
+	font-size: 12px;
+	font-family: $itc;
+	resize: none;
+}

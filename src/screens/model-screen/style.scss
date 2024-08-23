@@ -1,0 +1,115 @@
+@import '../../commons/fontfamily.scss';
+@import '../../commons/colors.scss';
+
+.modal-inner {
+  background-color: #fff;
+  border-radius: 3px;
+  max-height: 70vh;
+  margin: 50px auto;
+  padding: 10px;
+}
+.container {
+  width: 100%;
+  margin-left: -14px;
+}
+.lable {
+  text-transform: 'uppercase';
+  font-size: 10px;
+  font-family: $itc;
+  font-weight: bold;
+  height: 10px;
+}
+.btnStyleO {
+  background-color: $them_color;
+  border: none;
+  height: 30px;
+  width: 40%;
+  color: $white;
+  border-radius: 3px;
+  font-size: 2.9vw;
+}
+.selectBox {
+  height: 30px;
+  width: 40%;
+  font-size: 10px;
+  margin-right: 5px;
+  border: 1px solid $gray1;
+  outline: none;
+  background-color: $white;
+}
+.notadded {
+  display: none;
+}
+.iconContainer {
+  display: flex;
+  float: right;
+  position: relative;
+  right: -10px;
+  top: -10px;
+}
+.instruction {
+  font-size: 11px;
+  font-family: itc;
+  font-weight: bold;
+  margin-left: -6px;
+}
+.textareaContainer {
+  display: flex;
+  margin-left: -6px;
+}
+.textAreaStyles {
+  width: 100%;
+  border: 2px solid $them_color;
+  height: 70px;
+  border-radius: 3px;
+  color: $black;
+  font-size: 11px;
+  padding-top: 5px;
+}
+.bottomContainers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.descrptionContainer {
+  margin: -10px;
+}
+
+.containerTotalPrice {
+  font-size: 11px;
+  font-family: itc;
+  font-weight: bold;
+  height: 10px;
+}
+
+.lastContainer {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.addtocart {
+  text-decoration: none;
+  color: $white;
+}
+.item_font {
+  padding: 0px 0px;
+  margin-bottom: -5px;
+  font-size: 15px;
+  font-family: itc;
+  font-weight: Bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: -13px;
+}
+.quantitybuttonContainer {
+  padding: 0px 10px;
+}
+
+.loaderTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // margin-top: 80%;
+}

@@ -1,0 +1,268 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+@import "../../commons/fontsizes.scss";
+
+.containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section {
+  margin-bottom: 200px;
+}
+.bottomButton {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid $gray1;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 23%;
+  flex-direction: column;
+}
+.bottomButtonNew {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid $gray1;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 135px;
+  flex-direction: column;
+  z-index: -1;
+}
+.btn {
+  width: 90%;
+  height: 46px;
+  background-color: $them_color;
+  outline: none;
+  border: none;
+  color: $white;
+  text-transform: uppercase;
+  font-family: itc;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 3px;
+}
+.cart {
+  margin-left: 10px;
+  font-family: itc;
+  font-weight: bolder;
+  color: $gray1;
+  font-size: 4vw;
+  margin-right: 10px;
+}
+.emptyCartButton {
+  margin-left: 17px;
+  font-family: itc;
+  font-weight: bolder;
+  color: $white;
+  background-color: $black;
+  font-size: 4vw;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.bottomLink {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.emptyCart {
+  text-align: center;
+  font-family: itc;
+  color: $gray1;
+  font-size: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.popUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 70px;
+}
+.totalText {
+  margin: 0;
+  padding: 0;
+  font-family: itc;
+  font-size: 3.5vw;
+  margin-bottom: 5px;
+}
+.TotalAmountCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 5px;
+}
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.inputs {
+  margin-top: 10px;
+  width: 90%;
+  height: 45px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+}
+.seat-cart-div {
+  position: absolute;
+  top: 16vmin;
+  right: 0;
+}
+.cartbutton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.seat-info {
+  justify-self: end;
+  margin: 10px 10px 0 0;
+  border: 1px solid;
+  width: 100px;
+  height: 56px;
+}
+.seat-info > p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 0;
+}
+.addressbtn {
+  border-bottom: 1px solid $gray1;
+  font-family: itc;
+  font-weight: bolder;
+  color: $white;
+  font-size: 4vw;
+  margin-right: 10px;
+  width: fit-content;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#seat-info-button {
+  // hiding button until defined use. Removing click as well
+  opacity: 0;
+  touch-action: none;
+  pointer-events: none;
+
+  align-self: center;
+  justify-self: center;
+  width: 28px;
+  height: 26px;
+  text-align: center;
+  line-height: 25px;
+  border: 1px solid $greyText;
+  background-color: $white;
+  border-radius: 0px;
+}
+#seat-info-container {
+  display: grid;
+  grid-template-columns: 28px auto;
+  width: 150px;
+  height: 80px;
+  align-items: center;
+  justify-items: center;
+  margin-left: 10vw;
+}
+#seat-info-div {
+  height: 100px;
+}
+.seat-info {
+  justify-self: center;
+  align-self: center;
+  border: 1px solid;
+  width: 100px;
+  height: 56px;
+}
+.seat-info > p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 0;
+}
+.seat-info-holder {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  width: 100%;
+}
+
+.seat-input-holder {
+  align-items: center;
+  width: 300px;
+}
+
+#seat-input-header {
+  grid-area: header;
+  text-align: center;
+}
+
+.alert {
+  grid-area: alert;
+  color: red;
+  text-align: center;
+}
+
+.seat-item-input {
+  width: 100%;
+  height: 33%;
+}
+
+.seat-input-item {
+  display: grid;
+  grid-template-columns: 125px 150px;
+  align-items: center;
+}
+
+.seat-input-text {
+  margin-left: 10px;
+}
+
+#submit-seat {
+  grid-area: ground;
+  width: 70%;
+  justify-self: center;
+  align-self: center;
+  margin: 0 0 10px 45px;
+}
+
+#home-icon {
+  color: white;
+  transform: scale(2);
+  margin-right: 7vw;
+}
+
+.redeemRewards {
+  padding: 2px;
+  margin: 1.2vh;
+  border-radius: 7vh;
+  color: white;
+  font-weight: 550;
+  font-size: 16px;
+  background: red;
+  width: 37vw;
+  height: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+}

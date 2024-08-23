@@ -1,0 +1,71 @@
+@import "../../commons/colors.scss";
+
+@font-face {
+	font-family: "itc";
+	src: url("../../commons/fonts/itc.ttf");
+}
+
+.itemContainer {
+	margin: 1rem 0rem;
+
+	.item {
+		font-family : itc;
+		font-weight: 600;
+		display: grid;
+		grid-template-columns: 50% 20% 30%;
+		align-items: center;
+		box-shadow: 0rem 0.5rem 1.25rem rgb(0 0 0 / 10%);
+		height: 70px;
+		padding: 0.5rem;
+		border-radius: 0.5rem;
+
+		font-size: 0.8rem;
+
+		.itemImage {
+			width: 80px;
+		}
+
+		.points-badge {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: $goldBackground;
+			border-radius: 1rem;
+			height: 30px;
+			color: $lightGold;
+			margin: auto;
+			img {
+				width: 28%;
+				margin-top: 0.2rem;
+				margin-right: 0.2rem;
+			}
+		}
+		.redeemBtn {
+			background: #171e84;
+			padding: 0.25rem 0.65rem;
+			color: #ffff;
+			border-radius: 0.75rem;
+			margin-left: auto;
+			text-transform: capitalize;
+		}
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.item {
+		font-size: 1.15rem !important;
+		.itemImage {
+			width: 130px !important;
+		}
+
+		.redeemBtn {
+			border-radius: 0.95rem !important;
+		}
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.item {
+		font-size: 0.65rem !important;
+	}
+}

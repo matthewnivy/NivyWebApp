@@ -1,0 +1,83 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+.list {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 0px;
+  border-bottom: 1px solid $gray1;
+  width: max-content;
+}
+.list li {
+  display: inline-block;
+  font-family: itc;
+  font-weight: bold;
+  font-size: 3.5vw;
+  margin-bottom: 2px;
+  color: $gray1;
+  margin-left: 3px;
+}
+.list li:first-child {
+  color: $them_color;
+}
+.selection {
+  margin-top: 12%;
+  text-align: center;
+}
+.headingTop {
+  font-family: itc;
+  font-weight: bold;
+  font-size: 4.5vw;
+  margin-bottom: 30px;
+  margin-left: 6vw;
+  margin-top: 11vw;
+}
+
+.selectBoxes {
+  width: 88%;
+  height: 55px;
+  border: 2px solid $them_color;
+  color: $gray1;
+  font-family: itc;
+  border-radius: 2px;
+}
+.selectBoxesinner {
+  width: 94%;
+  height: 55px;
+  color: $gray1;
+  font-family: itc;
+  border: none;
+  background-color: $white;
+  outline: none;
+}
+.selectBoxesinner:focus {
+  border: none;
+  outline: none;
+}
+.selectBox option {
+  width: 90%;
+}
+.items {
+  margin-top: 8px;
+}
+.box {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.noVendor {
+  font-family: itc;
+  color: $gray1;
+  text-align: center;
+  margin-top: 130px;
+  text-transform: uppercase;
+}
+
+.noLocation {
+  font-family: itc;
+  color: $gray1;
+  text-align: center;
+  text-transform: uppercase;
+}

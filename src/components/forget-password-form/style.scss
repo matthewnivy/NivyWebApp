@@ -1,0 +1,17 @@
+@import "../../commons/colors.scss";
+.code-container {
+	display: flex;
+	justify-content: space-between;
+
+	input {
+		padding: 0.5rem 0.2rem;
+		text-align: center;
+		border-radius: 40%;
+		width: 10%;
+	}
+}
+.text-muted {
+	color: $mutedText;
+	font-size: 0.85rem;
+	margin-bottom: 0.25rem;
+}

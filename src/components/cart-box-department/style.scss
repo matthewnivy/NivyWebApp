@@ -1,0 +1,64 @@
+@import "../../commons/fontfamily.scss";
+@import "../../commons/colors.scss";
+@import "../../commons/fontsizes.scss";
+
+.boxes {
+  width: 90%;
+}
+
+.ulList {
+  list-style: none;
+  margin-left: 20px;
+  height: 10px;
+}
+
+.ulList li {
+  color: $them_color;
+  font-family: itc;
+  font-weight: bolder;
+  font-size: 3.5vw;
+  width: fit-content;
+}
+
+.containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 10px;
+}
+.deliverytotal {
+  font-size: $small;
+  font-family: itc;
+  margin-bottom: 10px;
+}
+.innerList {
+  margin-bottom: 23px;
+}
+.main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.checkBox {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 89%;
+  height: 25px;
+}
+.innercheckbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bottomBorder {
+  width: 50px;
+  margin-left: 41px;
+  border: 1px solid $them_color;
+}
+
+.margin{
+  margin-top: 55px;
+}

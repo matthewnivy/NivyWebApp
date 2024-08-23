@@ -1,0 +1,33 @@
+@import "../../commons/fontfamily.scss";
+@import "../../commons/colors.scss";
+.tabs {
+	margin: 0.95rem;
+	.listTitle {
+		width: 100%;
+		display: flex;
+
+		.title {
+			cursor: pointer;
+		}
+
+		span {
+			text-align: center;
+			width: 100%;
+			padding-bottom: 0.5rem;
+			font-weight: 600;
+			font-size: 0.95rem;
+		}
+
+		.bar {
+			width: 100%;
+			height: 4px;
+			margin-top: 0.5rem;
+			background: $border;
+			transition: background-color 0.3s ease;
+		}
+
+		.active-bar {
+			background: $primary_blue;
+		}
+	}
+}

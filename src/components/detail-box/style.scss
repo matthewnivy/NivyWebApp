@@ -1,0 +1,90 @@
+@import "../../commons/fontfamily.scss";
+@import "../../commons/colors.scss";
+
+.main_div {
+  border: 2px solid $them_color;
+  height: 14vh;
+  width: 88%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 2px;
+  align-items: center;
+}
+.img_style {
+  width: 33%;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.VendorImage {
+  height: 80px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.textArea {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+
+  padding-bottom: 5px;
+}
+.icon {
+  margin-right: 5px;
+  font-size: 4vw;
+}
+.user {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.simpleText {
+  font-family: itc;
+  font-size: 2.4vw;
+  text-transform: capitalize;
+  word-break: break-all;
+  width: 65%;
+  margin-top: 1px;
+}
+.order_btn {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.orderBtn {
+  width: 16vw;
+  height: 20px;
+  border-radius: 2px;
+  background-color: $them_color;
+  font-size: 2.8vw;
+  line-height: 0px;
+  color: $white;
+  font-family: itc;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  padding: 3px;
+}
+@media only screen and (width: 768px) {
+  .VendorImage {
+    height: 16vw;
+    width: 25vw;
+  }
+}
+@media only screen and (width: 1024px) {
+  .VendorImage {
+    height: 16vw;
+    width: 25vw;
+  }
+}
+@media only screen and (width: 540px) {
+  .VendorImage {
+    height: 16vw;
+    width: 25vw;
+  }
+}

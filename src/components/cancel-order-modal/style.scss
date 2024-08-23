@@ -1,0 +1,34 @@
+@import "../../commons/colors.scss";
+div.mutedBtn {
+	color: $greyText;
+	border: 1px solid $greyText;
+	background: $white;
+}
+
+.cancelOrderText {
+	text-transform: capitalize;
+	div {
+		font-weight: 600;
+		font-size: 1.2rem;
+	}
+
+	p {
+		color: $greyText;
+		margin-top: 0.3rem;
+	}
+}
+
+.resize {
+	width: 40% !important;
+	font-size: 0.7rem;
+	padding: 0.55rem 0.65rem !important;
+	margin: 0rem !important;
+}
+
+
+.parent{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}

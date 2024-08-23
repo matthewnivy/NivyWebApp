@@ -1,0 +1,80 @@
+.checkin-btn-shadow {
+	box-shadow: 0rem 0.15rem 1rem 0.25rem rgba(15, 28, 63, 0.25);
+	-webkit-box-shadow: 0rem 0.15rem 1rem 0.25rem rgba(15, 28, 63, 0.25);
+	-moz-box-shadow: 0rem 0.15rem 1rem 0.25rem rgba(15, 28, 63, 0.25);
+}
+
+.checkin-btn-sizing {
+	position: fixed;
+	left: 81%;
+	bottom: 10%;
+	z-index: 1;
+	border-radius: 50%;
+	width: 3.65rem;
+	height: 3.65rem;
+	cursor: pointer;
+}
+
+.checkin-btn-container {
+	background: #d3d3d3;
+	color: #ffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 1.5rem;
+}
+
+.checkin-btn-container > span {
+	font-size: 0.55rem;
+}
+
+.checkmark-container {
+	background: #15a415;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.checkmark-svg {
+	width: 25px;
+	stroke: #ffff;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 3px;
+
+	path {
+		stroke-dasharray: 40.84104919433594;
+		stroke-dashoffset: 40.84104919433594;
+		animation: checkmark 0.7s linear forwards;
+	}
+}
+
+@keyframes checkmark {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+@media only screen and (min-height: 950px) {
+	.checkin-btn-sizing {
+		bottom: 30%;
+		width: 4rem;
+		height: 4rem;
+	}
+}
+
+@media only screen and (min-height: 1200px) {
+	.checkin-btn-sizing {
+		bottom: 40%;
+		width: 4rem;
+		height: 4rem;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.checkin-btn-sizing {
+		left: 77%;
+		height: 3.25rem;
+		width: 3.25rem;
+	}
+}

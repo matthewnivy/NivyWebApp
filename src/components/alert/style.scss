@@ -1,0 +1,89 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+.toast-style-one {
+    position: absolute;
+    width: 343px;
+    height: 64px;
+    background: $white;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.toast-style-one-success {
+    border: 1px solid $sucess;
+}
+
+.toast-style-one-error {
+    border: 1px solid $error;
+}
+
+.toast-style-two {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    margin: 13px 292px 14px 14px;
+    border-radius: 22px;
+}
+
+.toast-style-two-success {
+    background: $sucess_highlight;
+}
+
+.toast-style-two-error {
+    background: $error_highlight;
+}
+
+.toast-icon {
+    position: absolute;
+    width: 22px;
+    height: 17px;
+    margin: 10px 10px 10px 7px;
+}
+
+.toast-icon-success {
+    color: $sucess;
+}
+
+.toast-icon-error {
+    color: $error;
+}
+
+.toast-style-three {
+    position: absolute;
+    // width: 179px;
+    height: 40px;
+    font-family: ITC Avant Garde Gothic Demi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: capitalize;
+    margin: 12px 102px 12px 62px;
+}
+
+.toast-style-three-success {
+    color: $sucess;
+}
+
+.toast-style-three-error {
+    color: $error;
+}
+
+.toast-style-four {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: $greyText;
+    width: 52vw;
+}
+
+.alert-close {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    color: $greyText;
+    margin: 21px 26.39px 27px 318px;
+}

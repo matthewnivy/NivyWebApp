@@ -1,0 +1,38 @@
+@import "../../commons/colors.scss";
+
+.encapsulatingBox {
+    width: 281px;
+    height: 55px;
+    // background: $lightBlue;
+    border-radius: 3px;
+}
+
+#venueBox {
+    overflow-y: scroll;
+    max-height: 169px;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: $grayTwo;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $greyText;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $gray1;
+}
+
+.venueNotFound {
+    text-align: center;
+    display: block;
+    margin: 12px;
+}

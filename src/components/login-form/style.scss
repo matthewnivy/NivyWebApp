@@ -1,0 +1,144 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+.modalForm {
+	display: flex;
+	flex-direction: column;
+
+	.input-container {
+		position: relative;
+		margin-bottom: 0.5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	input {
+		padding: 0.5rem 2.55rem;
+	}
+
+	input,
+	textarea {
+		font-size: 16px;
+		width: 100%;
+		border-radius: 0.85rem;
+		border: 1px solid;
+		border-color: $primary_blue;
+	}
+
+	.icon {
+		position: absolute;
+		font-size: 1.25rem;
+		top: 0.5rem;
+		left: 3%;
+		color: $primary_blue;
+	}
+
+	.pass-icon {
+		left: 88%;
+		color: $gray1;
+	}
+
+	.link {
+		text-decoration: none;
+		color: $them_color;
+		font-weight: bold;
+	}
+
+	.forgetPassword {
+		font-size: 0.62rem;
+		align-self: end;
+	}
+
+	.signUp {
+		align-self: center;
+		font-size: 0.75rem;
+		color: $primary_blue;
+		padding-top: 0.5rem;
+	}
+
+	.submitBtn {
+		background: $primary_blue;
+		padding: 0.35rem;
+		margin-top: 0.8rem;
+		color: $white;
+		font-weight: bold;
+	}
+
+	.text {
+		padding: 0.5rem 0rem;
+	}
+	.login-text {
+		font-size: 1.05rem;
+	}
+
+	.error {
+		color: $error;
+		font-size: 0.65rem;
+	}
+}
+.checkoutSignUp {
+	height: 21px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.innerSignUp {
+	font-family: "ITC Avant Garde Gothic Demi";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 10px;
+	align-items: center;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.continueAsGuest {
+	width: 72px;
+	height: 10px;
+	font-family: "ITC Avant Garde Gothic Demi";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 10px;
+}
+
+.container {
+	display: flex;
+	margin-top: 12px;
+	align-items: center;
+	text-align: center;
+}
+.item {
+	border-radius: 8px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 10px;
+	padding: 7px;
+}
+
+#item-1 {
+	width: 44%;
+	margin-left: 20px;
+}
+#item-2 {
+	width: 50%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}

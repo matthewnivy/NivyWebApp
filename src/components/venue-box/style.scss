@@ -1,0 +1,38 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+.badge {
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    background: $purple;
+    margin-left: 7px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.badgeText {
+    font-family: $itc;
+    font-weight: bolder;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $primary_blue;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.venue {
+    position: relative;
+    font-family: $itc;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 25px;
+    color: $black;
+    left: 69px;
+    top: -30px;
+}
+
+.encapsulatingBox:hover{
+    background-color: $grayTwo;
+}

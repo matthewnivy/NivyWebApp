@@ -1,0 +1,43 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+
+@font-face {
+  font-family: "itc";
+  src: url("../../commons/fonts/itc.ttf");
+}
+.main_boxOne {
+  width: 90%;
+  margin: 0px auto;
+  height: 60px;
+  box-shadow: 0px 5px 20px -8px rgba(0, 0, 0, 0.7);
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.5vw solid;
+  border-radius: 25px;
+  margin-bottom: 4vw;
+  justify-content: center;
+}
+.imgstyle {
+  width: 25%;
+  padding: 10px;
+}
+.catagoryName {
+  width: 100%;
+  text-align: center;
+}
+.text {
+  font-family: itc;
+  font-weight: bold;
+  font-size: 3.5vw;
+  word-break: break-all;
+  color: $black;
+}
+.catLink {
+  text-decoration: none;
+}
+.arrow {
+  margin-left: 10px;
+  margin-top: 5px;
+}

@@ -1,0 +1,49 @@
+@import "../../../commons/colors.scss";
+@import "../../../commons/fontfamily.scss";
+
+.mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 2px solid #dcdcdc;
+  margin-bottom: 3px;
+  margin-left: -6px;
+  align-items: center;
+}
+.labeles {
+  width: 65%;
+}
+.lableStyle {
+  color: $gray1;
+  margin-right: 65px;
+  font-size: 9px;
+  line-height: 2;
+  font-family: $itc;
+  margin-left: 5px;
+}
+.PriceContainer {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prices {
+  font-size: 10px;
+  line-height: 2;
+  font-family: $itc;
+  font-weight: bold;
+  text-align: right;
+  padding-left: 20px;
+}
+.Checkbox {
+  margin-left: -2px;
+  width: 10%;
+}
+
+.Addon {
+  font-size: 11px;
+  font-family: itc;
+  font-weight: bold;
+  line-height: 0;
+  margin-left: -6px;
+  margin-top: 30px;
+}

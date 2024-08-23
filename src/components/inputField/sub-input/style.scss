@@ -1,0 +1,15 @@
+@import "../../../commons/colors.scss";
+@import "../../../commons/fontfamily.scss";
+
+.SubinputStyle {
+  height: 44px;
+  border: 1px solid $them_color;
+  color: $gray1;
+  font-family: $itc;
+  width: 100%;
+}
+
+.SubContainer {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}

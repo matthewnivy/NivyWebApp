@@ -1,0 +1,56 @@
+@import "../../commons/colors.scss";
+@import "../../commons/fontfamily.scss";
+@import url(//db.onlinewebfonts.com/c/0686a7a9dc5f6bd5f555298d801d88ac?family=Brody);
+
+body {
+	padding-top: 16vmin;
+}
+
+.header {
+  height: 16vmin;
+  background-color: $them_color;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+  z-index: 40;
+}
+
+.iconstyle {
+  margin-left: 10px;
+  font-size: 6vw;
+}
+.headText {
+  color: $white;
+  font-family: brody;
+  font-size: 29px;
+}
+.shop {
+  margin-right: 13px;
+  font-size: 8.5vw;
+}
+.home {
+  margin-right: 13px;
+  width: 6.5vw;
+}
+.counter {
+  position: absolute;
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  padding: 1vw 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $counterBack;
+  margin-top: -5px;
+  margin-left: 2vw;
+}
+.contStyle {
+  font-size: 3.5vw;
+  font-weight: bold;
+}
